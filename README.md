@@ -23,8 +23,6 @@
 1. **Спеціальності** (Specialties): `id`, `code`, `name`.
 2. **Наукові статті** (Articles): `id`, `specialty_id`, `title`, `author`, `year`.
 
-   ---
-
 ## Лістинг реалізації завдання
 
 ### Файли .csv
