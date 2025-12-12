@@ -27,6 +27,26 @@
 
 ## Лістинг реалізації завдання
 
+### Файли .csv
+
+#### article.csv
+```
+id,specialty_id,title,author,year
+1,1,Lisp in AI Systems,McCarthy,1960
+2,1,Functional Patterns,Graham,2001
+3,2,Sorting Algorithms,Knuth,1973
+4,3,Graph Theory,Euler,1736
+5,1,Closure Compilation,Steele,1978
+```
+
+#### specialties.csv
+```
+id,code,name
+1,121,Software Engineering
+2,122,Computer Science
+3,113,Applied Mathematics
+```
+
 ### 1. Читання з CSV у Геш-таблицю
 ```lisp
 (defun split-csv-line (line)
