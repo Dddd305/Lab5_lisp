@@ -70,7 +70,6 @@ id,code,name
                        (setf (gethash :id record) id)
                        (setf (gethash :code record) code)
                        (setf (gethash :name record) name)
-                       ;; Add to main DB using ID as key
                        (setf (gethash id db) record)))
 
                     ((eq key :articles)
